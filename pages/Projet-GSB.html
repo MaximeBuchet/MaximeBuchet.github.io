@@ -51,12 +51,108 @@
         </div>
     </nav>
 
+<!-- Projects Section -->
+<section id="projects" class="container">
+    <div class="jumbotron mb-5">
+        <h1>Projets GSB</h1>
+        <p class="lead">Présentation des projets Back-GSB et Front-GSB.</p>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 mb-5">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Back-GSB</h2>
+                    <p class="card-text">Back-GSB est une application back-end pour la gestion de medecins. Il met a
+                        disposition des api REST permettant d'obtenir et modifier une liste de medecins trier par
+                        département ou non.
+                        La modification de la liste des medecins est protégé par un JWT (Json Web Token). Donc seul
+                        une personne autorisée peut la modifier
+                    </p>
+                    <div class="card-text">
+                        <h4> fonctionnalités principales de Back-GSB :</h4>
+                        <ul>
+                            <li>Gestion des médecins : lecture, ajout, modification et suppression des médecins</li>
+                            <li>Liste des medecins par département</li>
+                            <li>Protection des modifications des medecins avec un JWT</li>
+                        </ul>
+                    </div>
+                    <div class="card-text">
+                        <h4>Technologies utilisées :</h4>
+                        <ul>
+                            <li>IDE : Visual Studio Community 2019</li>
+                            <li>Langage de programmation : C#</li>
+                            <li>Framework : .NET</li>
+                            <li>SGBD : Microsoft SQL Server Management Studio</li>
+                            <li>Modélisation de la base de données : Looping</li>
+                            <li>Outil de contrôle de version : Git (avec dépôt sur GitHub)</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-dark noire mt-3">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 mb-5">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Front-GSB</h2>
+                    <p class="card-text">Front-GSB est une application front-end qui interagit avec l'API Back-GSB
+                        pour afficher et gérer les informations sur les médecins.
+                        Elle permet aux visiteurs médicaux du laboratoire Galaxy Swiss Bourdin (GSB) de consulter et
+                        trier les médecins par département, ainsi que d'effectuer des actions spécifiques sur les
+                        médecins.
+                    </p>
+                    <div class="card-text">
+                        <h4>Les fonctionnalités principales de Front-GSB :</h4>
+                        <ul>
+                            <li>Interface pour la gestion des médecins : lecture, ajout, modification et suppression
+                                des médecins</li>
+                            <li>Interface pour la liste des medecins par département</li>
+                            <li>Protection des modifications des medecins avec une demande d'authentification</li>
+                        </ul>
+                    </div>
+                    <div class="card-text">
+                        <h4>Technologies utilisées :</h4>
+                        <ul>
+                            <li>IDE : Visual Studio Community 2019</li>
+                            <li>Langage de programmation : C#</li>
+                            <li>Framework : .NET</li>
+                            <li>API : Back-GSB</li>
+                            <li>Outil de contrôle de version : Git (avec dépôt sur GitHub)</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-dark noire mt-3">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<footer class="noire text-white py-4 mt-5">
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-md-6 col-lg-3 mb-3 mb-md-0">
+                <h6 class="text-uppercase font-weight-bold">Contactez-moi</h6>
+                <p class="mb-0"><a class="link" href="https://www.google.com/maps/place/44+Rue+du+Sergent+Michel+Berthet,+69009+Lyon" target="_blank"><i class="bi bi-geo-alt-fill me-2"></i>44 Rue du Sergent Michel Berthet</a></p>
+                <p class="mb-0"><a class="link" href="mailto:contact@monportfolio.com" target="_blank"><i class="bi bi-envelope-fill me-2"></i>contact@monportfolio.com</a></p>
+                <p class="mb-0"><a class="link" href="tel:+33665360801"><i class="bi bi-telephone-fill me-2"></i>+33 6 65 36 08 01</a></p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                <h5 class="mb-3">Réseaux sociaux</h5>
+                <ul class="list-unstyled">
+                    <li><a class="link" href="https://fr.linkedin.com/in/buchet-maxime" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a></li>
+                    <li><a class="link" href="https://github.com/MaximeBuchet" target="_blank"><i class="bi bi-github"></i> GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="container text-center">
+            <hr>
+            <p class="mb-0">© 2023 Maxime BUCHET. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
 
-
-    <footer>
-
-    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
